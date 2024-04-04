@@ -1,0 +1,228 @@
+
+.jetbrains-mono-font {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  .jetbrains-mono-light {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+  }
+
+  .top-home {
+    width: 295px;
+    height: 66px;
+    margin-left: 51px;
+    margin-top: 38px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+.header-shadow {
+    font-size: 70px;
+    color: white;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.header-box {
+    width: 616px;
+    height: 76px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .main-home-container {
+    margin-left: 146px;
+  }
+
+  .main-raid-image {
+    margin-left: 76px;
+  }
+
+.button-container {
+    display: flex;
+    padding-top: 15px;
+}
+
+.button {
+    background-color: #B484FF;
+    border: none;
+    color: white;
+    padding: 9px 43px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 0px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .button-two {
+    border: 2px solid white;
+    color: white;
+    padding: 9px 43px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 100px;
+  }
+
+  .main-paragraph {
+        width: 543;
+        height: 126;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        overflow: hidden;
+        padding-top: 10px;
+      }
+
+    .socials-container {
+        width: 156px;
+        height: 39px;
+        margin-right: 51px;
+        margin-top: 51px;
+      }
+
+      /* ROACH COMPONENT STYLES */
+      .roach-container {
+        background-color: #F9F041;
+        overflow: hidden;
+        width: 100vw;
+        /* height: 69px; */
+        bottom: 0;
+        width: 100%;
+        z-index: 100;
+        margin-top: 125px;
+      }
+      
+      .roaches {
+        display: flex;
+        width: 200%;
+        animation: moveBug 20s linear infinite;
+        align-items: center;
+      }
+
+      @keyframes moveBug {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(0); }
+      }
+
+      /* TOKENOMICS COMPONENT STYLES */
+      .tokenomic-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .text-container {
+      padding-left: 60px;
+      /* margin-top: 18; */
+    }
+
+    .highlight {
+      color: #F9F041;
+      text-decoration: underline;
+  }
+
+      .tokenomics-container {
+        display: flex;
+        justify-content: center;
+        height: 476px;
+        width: 1160px;
+        border: 1px solid #F9F041;
+        border-radius: 20px;
+        margin-top: -100px;
+    }
+
+    .tokenomics-header {
+      color: white;
+      align-items: normal;
+      font-size: 30px;
+      margin-top: 50px;
+
+    }
+
+    .tokenomics-sub-header {
+      color: white;
+      margin-top: 20;
+    }
+
+    .pie-chart-container {
+      padding-top: 60px;
+    }
+
+    /* Airdrop Component Styles */
+
+    .left-airdrop-container {
+      width: 638px;
+      height: 440px;
+      background-color: #F9F041;
+      border-radius: 20px;
+      text-align: left;
+      padding-left: 55px;
+      padding-top: 35px;
+      margin-right: 22px;
+      position: relative;
+    }
+
+    .airdrop-top-text {
+      font-size: 30px;
+    }
+
+    .airdrop-bottom-text {
+      padding-top: 25px;
+      color: black;
+      font-size: 26px;
+    }
+
+    .right-airdrop {
+      width: 504;
+      height: 440px;
+    }
+
+    .roachhand-container {
+      position: absolute;
+      right: 0;
+      top: 100;
+      padding-right: 50px;
+  }
+
+  .distribution-container {
+    width: 1160px;
+    height: 439px;
+    align-items: center;
+    border: 1px solid #F9F041;
+    border-radius: 20px;
+  }
+
+  .distribution-header {
+    width: 616px;
+    height: 33px;
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    padding-top: 40px;
+  }
+
+  .distribution-text {
+    width: 1034;
+    height: 130px;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    padding-top: 50px;
+  }
+
