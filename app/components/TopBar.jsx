@@ -1,4 +1,6 @@
 import Image from "next/image";
+import "../styles.css"
+
 
 const TopBar = () => (
   <div className="text-white flex justify-between">

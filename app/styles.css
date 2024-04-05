@@ -200,12 +200,23 @@
       padding-right: 50px;
   }
 
+  /* Distribution Styles */
+
   .distribution-container {
     width: 1160px;
     height: 439px;
-    align-items: center;
+    align-items: start; 
     border: 1px solid #F9F041;
     border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dist-text-container {
+    margin-right: 66px;
   }
 
   .distribution-header {
@@ -213,8 +224,8 @@
     height: 33px;
     color: white;
     font-size: 30px;
-    margin-left: 40px;
     padding-top: 40px;
+    padding-bottom: 10px;
   }
 
   .distribution-text {
@@ -222,7 +233,79 @@
     height: 130px;
     color: white;
     font-size: 20px;
-    margin-left: 40px;
     padding-top: 50px;
   }
 
+/*DISTRIBUTION BAR STYLES*/
+
+  .bar-container {
+    display: flex;
+    /* width: 1034px; */
+    color: white;
+    padding-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 8px;
+    font-size: 11px;
+  }
+
+  .jetbrains-mono-bold {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .box-text {
+    font-size: 11;
+    text-align: center;
+  }
+
+  .bottom-box-text {
+    font-size: 11;
+    color: #D7BEFF;
+    text-align: center;
+  }
+
+  .box {
+    background: linear-gradient(to top right, #303265, #584C93, #7961B9, #9573D8, #B88AFF, #B88AFF);
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box1 { width: 606px; }
+  .box2 { width: 146px; }
+  .box3 { width: 104px; }
+  .box4 { width: 105px; }
+  .box5 { width: 73px; }
+
+  
+  .container > .box-container:last-child {
+    margin-right: 0;
+  }
+
+  .white-circle {
+    width: 47px;
+    height: 47px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .stickers {
+    width: 30px;
+    height: 30px;
+  }

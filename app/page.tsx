@@ -2,6 +2,7 @@ import HomeView from "./components/HomeView";
 import Tokenomics from "./components/Tokenomics"
 import Airdrop from "./components/Airdrop"
 import Distribution from "./components/Distribution"
+import DistroBar from "./components/DistroBar"
 
 
 export default function Home() {
